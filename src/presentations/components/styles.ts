@@ -43,6 +43,8 @@ export const repoListStyles = css`
 `;
 
 export const repoItemStyles = css`
+  display: flex;
+  justify-content: space-between;
   padding: 10px;
   background-color: #fefefe;
   border-radius: 4px;
@@ -60,7 +62,8 @@ export const repoDescriptionStyles = css`
 
 export const repoStarStyles = css`
   color: #1677ff;
-  min-width: 75px;
+  min-width: 125px;
+  text-align: right;
 `;
 
 export const noDataStyles = css`

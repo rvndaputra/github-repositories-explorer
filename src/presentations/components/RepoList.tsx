@@ -38,7 +38,7 @@ const RepoList: FC<RepoListProps> = (props) => {
             )}
           </div>
           <div className={styles.repoStarStyles}>
-            Stars: {repo.stargazers_count.toLocaleString()}
+            {repo.stargazers_count.toLocaleString()} ⭐️
           </div>
         </li>
       ))}
